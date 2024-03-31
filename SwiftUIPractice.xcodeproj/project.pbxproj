@@ -15,6 +15,8 @@
 		F43B98492BB968EB0003EB37 /* SwiftUIPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43B98482BB968EB0003EB37 /* SwiftUIPracticeTests.swift */; };
 		F43B98532BB968EB0003EB37 /* SwiftUIPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43B98522BB968EB0003EB37 /* SwiftUIPracticeUITests.swift */; };
 		F43B98552BB968EB0003EB37 /* SwiftUIPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43B98542BB968EB0003EB37 /* SwiftUIPracticeUITestsLaunchTests.swift */; };
+		F43B98622BB993030003EB37 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43B98612BB993030003EB37 /* CircleImage.swift */; };
+		F43B98642BB993FB0003EB37 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43B98632BB993FB0003EB37 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		F43B984E2BB968EB0003EB37 /* SwiftUIPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43B98522BB968EB0003EB37 /* SwiftUIPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeUITests.swift; sourceTree = "<group>"; };
 		F43B98542BB968EB0003EB37 /* SwiftUIPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F43B98612BB993030003EB37 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F43B98632BB993FB0003EB37 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				F43B98392BB968E80003EB37 /* Item.swift */,
 				F43B983B2BB968EB0003EB37 /* Assets.xcassets */,
 				F43B983D2BB968EB0003EB37 /* Preview Content */,
+				F43B98612BB993030003EB37 /* CircleImage.swift */,
+				F43B98632BB993FB0003EB37 /* MapView.swift */,
 			);
 			path = SwiftUIPractice;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F43B98382BB968E80003EB37 /* ContentView.swift in Sources */,
+				F43B98622BB993030003EB37 /* CircleImage.swift in Sources */,
+				F43B98642BB993FB0003EB37 /* MapView.swift in Sources */,
 				F43B983A2BB968E80003EB37 /* Item.swift in Sources */,
 				F43B98362BB968E80003EB37 /* SwiftUIPracticeApp.swift in Sources */,
 			);
