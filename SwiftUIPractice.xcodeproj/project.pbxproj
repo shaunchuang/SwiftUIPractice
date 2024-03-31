@@ -17,6 +17,9 @@
 		F43B98552BB968EB0003EB37 /* SwiftUIPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43B98542BB968EB0003EB37 /* SwiftUIPracticeUITestsLaunchTests.swift */; };
 		F43B98622BB993030003EB37 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43B98612BB993030003EB37 /* CircleImage.swift */; };
 		F43B98642BB993FB0003EB37 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43B98632BB993FB0003EB37 /* MapView.swift */; };
+		F43B98662BB9AF600003EB37 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = F43B98652BB9AF600003EB37 /* landmarkData.json */; };
+		F43B98682BB9AF940003EB37 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43B98672BB9AF940003EB37 /* Landmark.swift */; };
+		F43B986A2BB9B1C70003EB37 /* ModalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43B98692BB9B1C70003EB37 /* ModalData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		F43B98542BB968EB0003EB37 /* SwiftUIPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F43B98612BB993030003EB37 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		F43B98632BB993FB0003EB37 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F43B98652BB9AF600003EB37 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		F43B98672BB9AF940003EB37 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		F43B98692BB9B1C70003EB37 /* ModalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,7 @@
 		F43B98292BB968E80003EB37 = {
 			isa = PBXGroup;
 			children = (
+				F43B98652BB9AF600003EB37 /* landmarkData.json */,
 				F43B98342BB968E80003EB37 /* SwiftUIPractice */,
 				F43B98472BB968EB0003EB37 /* SwiftUIPracticeTests */,
 				F43B98512BB968EB0003EB37 /* SwiftUIPracticeUITests */,
@@ -107,6 +114,8 @@
 				F43B983D2BB968EB0003EB37 /* Preview Content */,
 				F43B98612BB993030003EB37 /* CircleImage.swift */,
 				F43B98632BB993FB0003EB37 /* MapView.swift */,
+				F43B98672BB9AF940003EB37 /* Landmark.swift */,
+				F43B98692BB9B1C70003EB37 /* ModalData.swift */,
 			);
 			path = SwiftUIPractice;
 			sourceTree = "<group>";
@@ -242,6 +251,7 @@
 			files = (
 				F43B983F2BB968EB0003EB37 /* Preview Assets.xcassets in Resources */,
 				F43B983C2BB968EB0003EB37 /* Assets.xcassets in Resources */,
+				F43B98662BB9AF600003EB37 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +281,8 @@
 				F43B98642BB993FB0003EB37 /* MapView.swift in Sources */,
 				F43B983A2BB968E80003EB37 /* Item.swift in Sources */,
 				F43B98362BB968E80003EB37 /* SwiftUIPracticeApp.swift in Sources */,
+				F43B986A2BB9B1C70003EB37 /* ModalData.swift in Sources */,
+				F43B98682BB9AF940003EB37 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
