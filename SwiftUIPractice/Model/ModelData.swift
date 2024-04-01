@@ -1,11 +1,8 @@
-//
-//  ModalData.swift
-//  SwiftUIPractice
-//
-//  Created by Shaun Chuang on 2024/3/31.
-//
+
 
 import Foundation
+
+var landmarks: [Landmark] = load("landmarkData.json")
 
 func load<T: Decodable>(_ filename: String) -> T{
     let data: Data
